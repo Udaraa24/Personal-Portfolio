@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udara Bandara - AI/ML Developer Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="#">Services</a></li>-->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm <span>Udara</span> Bandara</h1>
+                <p>Passionate AI/ML Innovator</p>
+                <p>Exploring the Future of Intelligent Systems
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I'm an enthusiastic AI/IT undergraduate with a passion for technology and innovation. As a fast learner and ambitious problem solver, I thrive on tackling new challenges and adapting to changing environments. My strong foundation in computer science, coupled with my creativity, drives me to find innovative solutions. I love turning complex problems into simple, effective results, and I am excited to bring my skills and energy to new opportunities.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Programming</span><br>Proficient in C,Pyhthon,Java and Prolog.I develop efficient, scalable software solutions for diverse applications.</li>
+                            <li><span> AI/ML Solutions</span><br>Experienced in designing and implementing AI/ML models to solve complex problems, including NLP and Machine Learning.</li>
+                            <li><span> Web Development</span><br>Skilled in creating responsive, user-friendly web applications with a focus on front-end design and back-end functionality.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Undergraduate</span><br>BSc. Hons in Artificial Intelligence <br>University of Moratuwa- Faculty of Information Technology </li>
+                            <li><span> Advanced Level (2020)</span><br>Combined Maths- A <br>Physical Science- B<br> ICT-A </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Basics of Data Science</span><br>UniAthena in partnership with Cambridge International</li>
+                            <li><span> Python for Beginners</span><br>University of Moratuwa Distance Learning Centre</li>
+                        </ul>
+                    </div>
+
+                    <a href="images/Udara_Bandara_CV.pdf" download class="btn2">Download CV</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/IHCMS.PNG" alt="Intelligent Human Capital Management System">
+                    <div class="layer">
+                        <h3>Intelligent Human Capital Management System</h3>
+                        <p>Developed intelligent features for the existing Human Capital Management System at IFS, including a chatbot, CV parsing model, leave prediction system, and compensation management system.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Stumblepanni.PNG" alt="Stumblepanni - A Travel App">
+                    <div class="layer">
+                        <h3>Stumblepanni - A Travel App</h3>
+                        <p>Stumblepanni is an innovative travel planning web application that leverages AI to provide personalized recommendations and insights for travelers in Sri Lanka, enhancing their cultural immersion and streamlining the visa application process.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/AKMS.png" alt="Automated Key Management System">
+                    <div class="layer">
+                        <h3>Automated Key Management System</h3>
+                        <p>Developed an embedded IoT system using Arduino, C, PHP, and MySQL for secure key storage and management in institutions with multiple keys.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>udarabandara224@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+94 74 071 3696</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/udarabandara224" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Udaraa24" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/udaraa.__?igsh=MW9zZ2k3ejFuaDF3ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 Udara Bandara. All rights reserved. Designed and developed by Udara Bandara.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
